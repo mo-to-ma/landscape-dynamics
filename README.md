@@ -26,7 +26,7 @@ over the landscape) can simulate how a cell's state evolves over time.
    through the landscape one step at a time, without fitting any dynamics
    model. Constrained to stay near real data so it can't wander into
    territory the model has no support for.
-
+![output picture](https://github.com/mo-to-ma/landscape-dynamics/blob/main/landscape-/outputs/greedy.png)
 3. **OT + deterministic vector field**
    (`notebooks/experiments/01_ot_deterministic.ipynb`) — an attempt
    at continuous dynamics: velocity estimated between pseudotime bins via
@@ -34,7 +34,8 @@ over the landscape) can simulate how a cell's state evolves over time.
    forward in time. Works, but has a real limitation — a vector field
    that can only output one direction per point breaks down at genuine
    fate branch points. See `REPORT.md` for the full diagnosis.
-
+![with noise](https://github.com/mo-to-ma/landscape-dynamics/blob/main/landscape-/outputs/trajectory_preview.png)
+![without noise](https://github.com/mo-to-ma/landscape-dynamics/blob/main/landscape-/outputs/trajectory_preview_without_noise.png)
 4. **kNN + correlation real-cell walk**
    **current work.** 
    Restricts every step to actual real cells (so it structurally
