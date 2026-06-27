@@ -10,6 +10,8 @@ over the landscape) can simulate how a cell's state evolves over time.
 ## Demo
 
 **[Try the live interactive explorer →](https://github.com/mo-to-ma/landscape-dynamics/blob/main/landscape-/outputs/explorer_static.html)**
+![alt text](output.png)
+![alt text](output_2.png)
 
 ## The story, in order
 
